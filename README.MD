@@ -1,5 +1,5 @@
-[![Coverage Status](https://coveralls.io/repos/github/kaw393939/IS219CalcNew/badge.svg?branch=master)](https://coveralls.io/github/kaw393939/IS219CalcNew?branch=master)
-[![Build Status](https://travis-ci.com/kaw393939/IS219CalcNew.svg?branch=master)](https://travis-ci.com/kaw393939/IS219CalcNew)
+[![Coverage Status](https://coveralls.io/repos/github/AbakirH/Abakir_Hanna_IS219_Calculator/badge.svg?branch=main)](https://coveralls.io/github/AbakirH/Abakir_Hanna_IS219_Calculator?branch=main)
+[![Build Status](https://github.com/AbakirH/Abakir_Hanna_IS219_Calculator)](https://travis-ci.com/AbakirH/Abakir_Hanna_IS219_Calculator.svg?branch=master)
 
 Step 1:  Clone repo
 Step 2:  Run "npm install"
