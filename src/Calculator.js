@@ -38,5 +38,18 @@ class Calculator {
         Calculator.Calculations.push(calculation);
         return calculation.GetResults();
     }
+    static Square(a) {
+        let calculation = new Calculation(a,2,Power);
+        Calculator.Calculations.push(calculation);
+        return calculation.GetResults();
+    }
+    static SquareRoot(a) {
+        let calculation = new Calculation(a,2,Root);
+        Calculator.Calculations.push(calculation);
+        return calculation.GetResults();
+    }
+    static clearList(){
+        this.Calculations = [];
+    }
 }
 module.exports = Calculator;

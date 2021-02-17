@@ -1,4 +1,4 @@
-function Square (a,b) {
+function Power (a,b) {
     return Math.pow(a,b);
 }
-module.exports = Square;
+module.exports = Power;

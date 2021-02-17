@@ -50,3 +50,15 @@ test('Test Get results for Root function', () => {
     let calculation = new Calculation(4,2,op);
     expect(calculation.GetResults()).toBe(2);
 });
+test('Test Get results for Square function', () => {
+    //Test the get results function
+    let op = Power;
+    let calculation = new Calculation(3,2,op);
+    expect(calculation.GetResults()).toBe(9);
+});
+test('Test Get results for Root function', () => {
+    //Test the get results function
+    let op = Root;
+    let calculation = new Calculation(4,2,op);
+    expect(calculation.GetResults()).toBe(2);
+});
