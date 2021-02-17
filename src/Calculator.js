@@ -3,6 +3,8 @@ const Sum = require('./Operations/Sum');
 const Difference = require('./Operations/Difference');
 const Product = require('./Operations/Product');
 const Quotient = require('./Operations/Quotient');
+const Power = require('./Operations/Power');
+const Root = require('./Operations/Root');
 
 class Calculator {
     static Calculations = []
@@ -23,6 +25,16 @@ class Calculator {
     }
     static Quotient(a,b) {
         let calculation = new Calculation(a,b,Quotient);
+        Calculator.Calculations.push(calculation);
+        return calculation.GetResults();
+    }
+    static Power(a,b) {
+        let calculation = new Calculation(a,b,Power);
+        Calculator.Calculations.push(calculation);
+        return calculation.GetResults();
+    }
+    static Root(a,b) {
+        let calculation = new Calculation(a,b,Root);
         Calculator.Calculations.push(calculation);
         return calculation.GetResults();
     }

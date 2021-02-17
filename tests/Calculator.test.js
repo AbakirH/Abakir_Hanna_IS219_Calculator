@@ -16,6 +16,14 @@ test('Calculator quotient of two numbers', () => {
     let result = Calculator.Quotient(1,2);
     expect(result).toBe(.5);
 });
+test('Calculator power of two numbers', () => {
+    let result = Calculator.Power(2,3);
+    expect(result).toBe(8);
+});
+test('Calculator root of two numbers', () => {
+    let result = Calculator.Root(4,2);
+    expect(result).toBe(2);
+});
 test('Calculator adding to calculations', () => {
     let result = Calculator.Quotient(1,2);
     let calculations = Calculator.Calculations
